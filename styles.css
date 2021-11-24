@@ -1,0 +1,52 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  height: 75vh;
+  border-radius: 10px;
+}
+
+.pricing {
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-inner {
+  text-align: left;
+}
+
+.change-link {
+  align-self: center;
+}
+
+.proceed-button {
+  background-color: var(--bright-blue);
+  border-radius: 10px;
+  color: var(--very-pale-blue);
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.cancel {
+  color: var(--desaturated-blue);
+  font-weight: 700;
+}
